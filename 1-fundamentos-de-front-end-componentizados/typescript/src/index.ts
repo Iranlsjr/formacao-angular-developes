@@ -3,11 +3,11 @@ type heroi = {
   vulgo: string;
 };
 
-function printaObjeto(pessoa: heroi){
+function printaObjeto(gitgipessoa: heroi){
 console.log(pessoa)
-}
 
+}
 printaObjeto({
-  name:  "Bruce Wayne",
+  name: "Bruce Wayne",
   vulgo: "Batman",
 })
