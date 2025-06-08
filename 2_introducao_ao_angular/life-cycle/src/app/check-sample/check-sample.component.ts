@@ -24,48 +24,46 @@ export class CheckSampleComponent
 		AfterViewInit,
 		OnDestroy
 {
-
-	quantidade: number = 0
-
+	quantidade: number = 0;
 
 	constructor() {}
 
-	adicionar(){
-		this.quantidade += 1
+	adicionar() {
+		this.quantidade += 1;
 	}
 
-	decrementar(){
-		this.quantidade -= 1
+	decrementar() {
+		this.quantidade -= 1;
 	}
 
 	//Cheked --> content --> view
 
 	//Inicia o conteúdo
 	ngOnInit(): void {
-		console.log("ngOnInit")
+		console.log('ngOnInit');
 	}
 	//Verifica o conteúdo
 	ngDoCheck(): void {
-		console.log("ngDoCheck")
+		console.log('ngDoCheck');
 	}
 	//quando o primeiro conteúdo é iniciado
 	ngAfterContentInit(): void {
-				console.log("ngAfterContentInit")
+		console.log('ngAfterContentInit');
 	}
 	//após alguma alteração, verifica o conteúdo
 	ngAfterContentChecked(): void {
-				console.log("ngAfterContentChecked")
+		console.log('ngAfterContentChecked');
 	}
 	//depois da inicialização da view
 	ngAfterViewInit(): void {
-				console.log("ngAfterViewInit")
+		console.log('ngAfterViewInit');
 	}
 	//Após alguma alteração verifica a view
 	ngAfterViewChecked(): void {
-		console.log("ngAfterViewChecked")
+		console.log('ngAfterViewChecked');
 	}
 
 	ngOnDestroy(): void {
-		console.log("goddbye")
+		console.log('goddbye');
 	}
 }
