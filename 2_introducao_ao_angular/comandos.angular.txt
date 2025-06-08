@@ -1,0 +1,31 @@
+**Consultar a versão: ng version
+
+**Desinstalar: npm uninstall -g @angular/cli
+
+**Instalar uma versão especifica:  npm install -g @angular/cli@colocar-a-versao
+**VERIFICAR SE A VERSÃO DO NODEJS ESTÁ COMPATÍVEL COM ANGULAR INSTALADO.
+
+**Instalar a versão atual:  npm install -g @angular/cli
+
+ ** Verificar se  a instalação deu certo: ng help
+
+ **COMO HABILITAR A EXECUÇÃO DE SCRIPTS
+
+1 desisntalar o pacote
+
+*abrir power Shell como ADM e digitar: Get-ExecutionPoliticy -List
+*Verificar se o CurrentUser está Undefined e não estiver primeiro desisntalar os pacotes angular
+*Limpar o cache: npm cache clean --force
+*Verificar se o cache foi limpo: npm cache verify
+** no powershell executar: Set-ExecutionPoliticy -ExecutionPoliticy RemoteSigned -Scope CurrentUser
+** após  selecionar opção: "A"
+**por fim instalar novamente o angular.
+
+**Criar um novo projeto: ng new nome-do-projeto
+
+
+** CRIAR UM SERVIDOR: ng serve 
+
+** Para o servidor: Ctrl + C
+
+
