@@ -23,8 +23,14 @@
 
 **Criar um novo projeto: ng new nome-do-projeto
 
-
+Antes de rodar o servidor sempre adicionar na pasta tsconfig.json
+{
+  "compilerOptions": {
+    "skipLibCheck": true
+  }
+}
 ** CRIAR UM SERVIDOR: ng serve 
+
 
 ** Para o servidor: Ctrl + C
 
