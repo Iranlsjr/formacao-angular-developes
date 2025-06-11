@@ -4,24 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PORTAL DE NOTICÍAS GALACTICAS</title>
+    <!--CSS-->
     <link rel="stylesheet" href="styles/global.css" />
     <link rel="stylesheet" href="styles/card.css" />
+    <!--JAVASCRIPT-->
+    <script src="src/components/CardNews.js" defer></script>
+    <script src="src/components/TituloDinamico.js" defer></script>
   </head>
   <body>
-    <div class="container">
-      <div class="card">
-        <div class="card__left">
-          <span>By Iran Lourenço</span>
-          <a href="">Darth Vader Contrata Devs</a>
-          <p>
-            Darth Vader procura desenvolvedores que sabem trabalhar com
-            compoenentes
-          </p>
-        </div>
-        <div class="card__right">
-          <img src="assets/img/darth-vader.jpeg" alt="" />
-        </div>
-      </div>
-    </div>
+    <card-news
+    autor="Iran Lourenço"
+    title="Darth Vader contrata Devs"
+    link-url="https://www.google.com/webhp?authuser=2"
+    photo="assets/img/darth-vader.jpeg"
+    newsContent="Darth Vader procura desenvolvedores que sabem trabalhar com compoenentes">
+  </card-news>
+      <card-news
+    
+    title="Yoda convence republica a utilizar components"
+    link-url="https://www.google.com/webhp?authuser=2"
+    newsContent="Yoda se pronuncia e choca a república">
+  </card-news>
   </body>
 </html>
