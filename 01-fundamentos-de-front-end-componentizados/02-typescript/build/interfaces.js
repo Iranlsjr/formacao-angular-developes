@@ -12,7 +12,6 @@ const bot2 = {
     }
 };
 console.log(bot2);
-//Classes
 class Pessoa {
     constructor(id, name) {
         this.id = id;

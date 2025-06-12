@@ -22,7 +22,8 @@ const bot2: robot2 = {
     }
 };
 console.log(bot2);
-//Classes
+
+
 class Pessoa implements robot2 {
   id: string | number;
   name: string;
