@@ -19,7 +19,7 @@ export class TitleComponent implements OnInit, OnChanges {
 
   ngOnInit(): void {
 		console.log(`OnInit ${this.name}`)
-		this.name = `Olá, ${this.name}` + " x"
+		this.name = `Esse é: ${this.name}`
   }
 
 }
