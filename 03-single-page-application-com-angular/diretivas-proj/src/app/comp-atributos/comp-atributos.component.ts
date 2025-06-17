@@ -10,7 +10,7 @@ export class CompAtributosComponent implements OnInit {
   corFundo: string = 'red';
   item: string = '';
   lista: string[] = [];
-  isEnableBlock: boolean = false
+  isEnableBlock: boolean = true
 
   constructor() {}
 
@@ -19,7 +19,7 @@ export class CompAtributosComponent implements OnInit {
   adicionarLista() {
     this.lista.push(this.item);
   }
-  trocar() {
+  trocarCorFont() {
     if (this.estilo === 'disable') {
       this.estilo = 'enable';
     } else {

@@ -1,10 +1,8 @@
 <hr />
-<p [ngClass]="estilo">comp-atributos works!</p>
-<button (click)="trocar()">Trocar cor</button>
+<p [ngClass]="estilo">Diretivas de Atributo!</p>
+<button (click)="trocarCorFont()">Trocar cor da fonte</button>
 <h1 [ngStyle]="{ background: corFundo }">Curso Angular</h1>
 
-<ng-content select="h2"></ng-content>
-<ng-content select="p"></ng-content>
 
 <h1>Lista de Compras</h1>
 <p>Adicione um item</p>
@@ -30,3 +28,5 @@
 
 <hr>
 
+<ng-content select="h2"></ng-content>
+<ng-content select="p"></ng-content>
