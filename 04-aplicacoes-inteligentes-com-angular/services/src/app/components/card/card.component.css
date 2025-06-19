@@ -1,0 +1,49 @@
+.containeer__card {
+  border: solid 1px black;
+  width: 300px;
+  height: 400px;
+  background-color: #232323;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+}
+.containeer__card > input {
+  margin: 10px auto;
+  width: 80%;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+}
+
+.card__title > h3 {
+  text-align: center;
+  color: white;
+}
+.card__body {
+  background-color: #616161;
+  width: 85%;
+  height: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  display: flex;
+}
+.card__body > img {
+  width: 85%;
+  margin: auto;
+}
+
+.card__stats {
+  display: flex;
+  margin: auto;
+  color: black;
+  font-weight: bold;
+}
+.card__stats__type {
+  text-align: center;
+  background-color: coral;
+  padding: 5px;
+  border-radius: 4px;
+  margin-right: 4px;
+}
